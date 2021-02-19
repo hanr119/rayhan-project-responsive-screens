@@ -1,0 +1,115 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  background-color: #f4f3ee;
+}
+
+.container {
+  padding-right: 8vw;
+  padding-left: 8vw;
+  column-width: auto;
+  column-count: 2;
+  column-gap: 3vw;
+}
+
+.title {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 10vw;
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  color: #463f3a;
+}
+
+.wiki {
+  text-decoration: none;
+  color: black;
+  
+}
+
+h1 {
+  font-weight: Extra-bold 800;
+  font-style: italic;
+  font-size: 3em;  
+  color: #8a817c;
+}
+
+p {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #bcb8b1;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+  font-size: 3vw;
+}
+
+li {
+  margin: 5vw 0;
+}
+
+h2 {
+  letter-spacing: 0.2rem;
+}
+
+img {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.teaspoon{
+  display: none;
+}
+
+.tancha{
+  display: none;
+}
+
+.teazzi{
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .title {
+    color: #f4f3ee;
+  }
+  body {
+    background-color: black;
+    color: white;
+  }
+  
+  .container {
+    column-width: auto;
+    column-count: 1;
+  }
+  h1 {
+    color: #e0afa0;
+  }
+  .description {
+    display: none;
+  }
+  
+  p {
+    display: block;
+  }
+  .teaspoon{
+  display: block;
+}
+  img {
+    display: none;
+  }
+
+  .tancha{
+  display: block;
+  }
+
+  .teazzi{
+  display: block;
+  }
+}
+
